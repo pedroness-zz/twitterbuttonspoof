@@ -1,5 +1,5 @@
 {
-  "name": "update_monitor_emitter",
+  "name": "messaging_service",
   "version": "1.0.0",
   "description": "PRIVATE -> THIS FOLDER GETS MOVED AT BUILD TIME BY DOCKER IMAGE",
   "main": "monitor.js",
@@ -11,6 +11,10 @@
   "dependencies": {
     "moment": "^2.22.2",
     "request": "^2.87.0",
+    "shelljs": "^0.8.2",
     "socket.io": "^2.1.1"
+  },
+  "scripts": {
+    "start": "start.js"
   }
 }
